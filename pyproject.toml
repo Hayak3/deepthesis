@@ -1,0 +1,12 @@
+[project]
+name = "deepthesis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "google>=3.0.0",
+    "google-genai>=1.15.0",
+    "pillow>=11.2.1",
+    "pymupdf>=1.25.5",
+]
