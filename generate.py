@@ -33,7 +33,6 @@ def extract_document_content_re(latex_string):
 TIMEOUT = os.getenv("TIMEOUT")
 api_key = os.getenv("API_KEY")
 GEMINI_TIMEOUT = int(TIMEOUT) if TIMEOUT else 10 * 60 * 1000  # 10 minutes
-api_key = "AIzaSyANn79s166U0xgMNGlV3K72rZ6MRt0lE4Y"
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
